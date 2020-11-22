@@ -1,0 +1,217 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.3.48",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "back",
+            "rotation" : [
+                0.3956564664840698,
+                0.36352017521858215,
+                0.03566904738545418,
+                0.8426369428634644
+            ],
+            "scale" : [
+                -1,
+                1,
+                1
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "front.002",
+            "rotation" : [
+                0.3956564664840698,
+                0.36352017521858215,
+                0.03566904738545418,
+                0.8426369428634644
+            ],
+            "scale" : [
+                -1,
+                1,
+                1
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "Material.001",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Text.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Text.005",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 27658,
+            "max" : [
+                3.1184918880462646,
+                1.7180213928222656,
+                0.18764907121658325
+            ],
+            "min" : [
+                -2.7584056854248047,
+                -3.1199982166290283,
+                -0.33061960339546204
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 27658,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 27658,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 27666,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 23641,
+            "max" : [
+                3.118490695953369,
+                3.119847059249878,
+                0.1876489818096161
+            ],
+            "min" : [
+                -2.4251203536987305,
+                -2.072899341583252,
+                -0.3306196928024292
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 23641,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 23641,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 23649,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 331896,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 331896,
+            "byteOffset" : 331896
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 221264,
+            "byteOffset" : 663792
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 55332,
+            "byteOffset" : 885056
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 283692,
+            "byteOffset" : 940388
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 283692,
+            "byteOffset" : 1224080
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 189128,
+            "byteOffset" : 1507772
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 47298,
+            "byteOffset" : 1696900
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 1744200,
+            "uri" : "circle-text-3.bin"
+        }
+    ]
+}
